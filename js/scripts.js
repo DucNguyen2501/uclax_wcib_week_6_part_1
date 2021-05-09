@@ -21,7 +21,6 @@ newImage.onclick = function(e) {
 }
 
 /* Wiring up the Darken/Lighten button */
-
 btn.onclick = function() {
   const btnClass = btn.getAttribute('class');
   if(btnClass === 'dark') {
