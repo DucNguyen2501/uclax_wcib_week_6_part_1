@@ -1,9 +1,10 @@
 body {
   color: grey;
   padding-top: 0.5rem;
-  width: 960px;
-  margin: 0 auto;
   background-color: black; }
+
+.col-sm {
+  padding: 50px 0px 50px 0px; }
 
 .starter-template {
   padding: 3rem 1.5rem;
@@ -11,27 +12,27 @@ body {
 
 h1 {
   font-size: 22pt;
-  font-family: helvetica, arial, sans-serif;
-  text-align: center; }
+  font-family: helvetica, arial, sans-serif; }
 
 .full-img {
   position: relative;
   display: block;
-  width: 960px;
-  height: 720px; }
+  width: 80%;
+  margin: 0 auto; }
 
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 960px;
-  height: 720px;
+  bottom: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0); }
 
 button {
   color: white;
   font-weight: 400;
   padding: .375rem 3rem;
+  margin: 30px;
   border: 0;
   border-radius: .3rem;
   background-color: #007bff;
@@ -40,8 +41,11 @@ button {
   top: 2px;
   left: 2px; }
 
-.thumb-bar img {
-  display: block;
-  width: 20%;
-  float: left;
-  cursor: pointer; }
+.thumb-bar {
+  width: 80%;
+  margin: 0 auto; }
+  .thumb-bar img {
+    display: block;
+    width: 20%;
+    float: left;
+    cursor: pointer; }
